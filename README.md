@@ -21,10 +21,6 @@ Also the application has updated to allow "NSAllowsArbitraryLoads" for NSAppTran
 [Connect Your iOS 9 App to Bluemix](https://developer.ibm.com/bluemix/2015/09/16/connect-your-ios-9-app-to-bluemix/)
 
 
-## Setting up the Bluelist sample
-For more information see [Instructions for the Bluelist sample for iOS](https://www.ng.bluemix.net/docs/starters/mobilefirst/gettingstarted/bluelist_sample_readme.html).
-
-
 ### Configure the back end for your Bluelist application
 Before you can run the Bluelist application, you must set up an app on Bluemix.  By setting up this app, service instances for the data, push, security, and monitoring functions of the app are configured.
 
@@ -84,7 +80,7 @@ Update the `Info.plist` file with your Facebook App information:
 Update URL Types, Item 0, URL Schemes, update Item 0 as follows:
 
 - URL Schemes: (for example `fb1581349575427190` , fb+Client ID from Facebook developer console)
-[Learn more about using Facebook as an identity provider](https://www.ng.bluemix.net/docs/#services/mobileaccess/security/id_provs/index-gentopic2.html#usingfacebookauthentication)    
+[Learn more about using Facebook as an identity provider](https://www.bluemix.net/docs/services/mobileaccess/facebook-auth-ios.html)    
 
 ####Google authentication
 
@@ -95,7 +91,7 @@ Update URL Types (Item 1)
 - Under URL Types update URL Schemes like this:
 - URL Identifier: (for example `com.ibm.BlueList` , You can find Bundle ID used in google developer console)
 - URL Schemes: (for example `com.ibm.BlueList` , You can find the Bundle ID used in google developer console)
-[Learn more about using Google as an identity provider](https://www.ng.bluemix.net/docs/#services/mobileaccess/security/id_provs/index-gentopic2.html#google_auth)
+[Learn more about using Google as an identity provider](https://www.bluemix.net/docs/services/mobileaccess/google-auth-ios.html)
 
 ####Custom authentication
 
@@ -106,7 +102,7 @@ Update the `Info.plist` file with your Custom Realm information:
 When prompted for username and password in BlueList iOS App use `james` and `42`
 
 
-[Learn more about configuring a custom identity provider](https://www.ng.bluemix.net/docs/#services/mobileaccess/security/id_provs/index-gentopic2.html#custom_id_prov)
+[Learn more about configuring a custom identity provider](https://www.bluemix.net/docs/services/mobileaccess/custom-auth-ios.html)
 
 ### NEW: Enabling Encryption:
 
@@ -143,7 +139,7 @@ In the sample application, the encryption code is already provided in the TableV
 
 For more information on Encrypting Data please see the following doc:
 
-[Encrypting data on a the device](https://www.ng.bluemix.net/docs/services/data/index.html#t_data_encrypt)
+[Encrypting data on a the device](https://www.bluemix.net/docs/services/data/index.html#t_data_encrypt)
 
 
 
