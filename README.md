@@ -11,7 +11,7 @@ Select the Swift or Objective-C version of the Bluelist App:
 
 - bluelist-objective-c
 
-Note: bluelist-swift requires latest version of Xcode (7.0) to compile swift 2.0 code.
+Note: Both bluelist-swift and bluelist-objective-c require the latest version of Xcode (7.0) to compile.
 Some additional configuration may be needed from Facebook if you are experiencing any authentication errors. Please follow the doc below which is provided by Facebook:
 
 - [Facebook-iOS9](https://developers.facebook.com/docs/ios/ios9)
