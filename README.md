@@ -1,5 +1,8 @@
 # IBM MobileFirst Platform for iOS Bluelist Sample App
 The Bluelist sample contains Objective-C and Swift projects.  The sample uses the Cloudant NoSQL DB, Mobile Client Access, and IBM Push Notifications services.
+
+**ATTENTION**: This sample has been deprecated and is no longer supported. Please see [Bluemix Mobile Services](https://github.com/ibm-bluemix-mobile-services) for Mobile Client Access and IBM Push Notifications samples. See [Cloudant Sync](https://github.com/cloudant/CDTDatastore) to learn more about saving JSON data on Bluemix using the Cloudant service.
+
 ### Downloading the samples
 Clone the samples from GitHub with the following command:
 
