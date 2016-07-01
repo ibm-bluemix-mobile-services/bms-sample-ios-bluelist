@@ -1,5 +1,8 @@
 # IBM MobileFirst Platform for iOS Bluelist Sample App
 The Bluelist sample contains Objective-C and Swift projects.  The sample uses the Cloudant NoSQL DB, Mobile Client Access, and IBM Push Notifications services.
+
+**ATTENTION**: This sample has been deprecated and is no longer supported. Please see [Bluemix Mobile Services](https://github.com/ibm-bluemix-mobile-services) for Mobile Client Access and IBM Push Notifications samples. See [Cloudant Sync](https://github.com/cloudant/CDTDatastore) to learn more about saving JSON data on Bluemix using the Cloudant service.
+
 ### Downloading the samples
 Clone the samples from GitHub with the following command:
 
@@ -11,7 +14,7 @@ Select the Swift or Objective-C version of the Bluelist App:
 
 - bluelist-objective-c
 
-Note: bluelist-swift requires latest version of Xcode (7.0) to compile swift 2.0 code.
+Note: Both bluelist-swift and bluelist-objective-c require the latest version of Xcode (7.0) to compile.
 Some additional configuration may be needed from Facebook if you are experiencing any authentication errors. Please follow the doc below which is provided by Facebook:
 
 - [Facebook-iOS9](https://developers.facebook.com/docs/ios/ios9)
@@ -19,10 +22,6 @@ Some additional configuration may be needed from Facebook if you are experiencin
 Also the application has updated to allow "NSAllowsArbitraryLoads" for NSAppTransportSecurity as a workaround for the Application Transport Security settings introduced in iOS 9. For more info please see the following blog:
 
 [Connect Your iOS 9 App to Bluemix](https://developer.ibm.com/bluemix/2015/09/16/connect-your-ios-9-app-to-bluemix/)
-
-
-## Setting up the Bluelist sample
-For more information see [Instructions for the Bluelist sample for iOS](https://www.ng.bluemix.net/docs/starters/mobilefirst/gettingstarted/bluelist_sample_readme.html).
 
 
 ### Configure the back end for your Bluelist application
@@ -84,7 +83,7 @@ Update the `Info.plist` file with your Facebook App information:
 Update URL Types, Item 0, URL Schemes, update Item 0 as follows:
 
 - URL Schemes: (for example `fb1581349575427190` , fb+Client ID from Facebook developer console)
-[Learn more about using Facebook as an identity provider](https://www.ng.bluemix.net/docs/#services/mobileaccess/security/id_provs/index-gentopic2.html#usingfacebookauthentication)    
+[Learn more about using Facebook as an identity provider](https://www.bluemix.net/docs/services/mobileaccess/facebook-auth-ios.html)    
 
 ####Google authentication
 
@@ -95,7 +94,7 @@ Update URL Types (Item 1)
 - Under URL Types update URL Schemes like this:
 - URL Identifier: (for example `com.ibm.BlueList` , You can find Bundle ID used in google developer console)
 - URL Schemes: (for example `com.ibm.BlueList` , You can find the Bundle ID used in google developer console)
-[Learn more about using Google as an identity provider](https://www.ng.bluemix.net/docs/#services/mobileaccess/security/id_provs/index-gentopic2.html#google_auth)
+[Learn more about using Google as an identity provider](https://www.bluemix.net/docs/services/mobileaccess/google-auth-ios.html)
 
 ####Custom authentication
 
@@ -106,7 +105,7 @@ Update the `Info.plist` file with your Custom Realm information:
 When prompted for username and password in BlueList iOS App use `james` and `42`
 
 
-[Learn more about configuring a custom identity provider](https://www.ng.bluemix.net/docs/#services/mobileaccess/security/id_provs/index-gentopic2.html#custom_id_prov)
+[Learn more about configuring a custom identity provider](https://www.bluemix.net/docs/services/mobileaccess/custom-auth-ios.html)
 
 ### NEW: Enabling Encryption:
 
@@ -143,7 +142,7 @@ In the sample application, the encryption code is already provided in the TableV
 
 For more information on Encrypting Data please see the following doc:
 
-[Encrypting data on a the device](https://www.ng.bluemix.net/docs/services/data/index.html#t_data_encrypt)
+[Encrypting data on a the device](https://www.bluemix.net/docs/services/data/index.html#t_data_encrypt)
 
 
 
